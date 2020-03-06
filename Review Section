@@ -1,0 +1,54 @@
+6.5
+A)  int sum = 0;
+    for (int i = 2, i <= 100, i = i + 2) {
+    sum += i
+    }
+    
+B)  int sum = 0;
+    for (int i = 0, i <= 10, i ++) {
+    sum += i * i
+    }
+
+C)  int sum = 0;
+    for (int i = a, i <= b, i ++) {
+    if (i % 2 == 1) {
+    sum += i
+    }}
+    
+D)  int sum = 0;
+	  int i = 10;
+	  int n = 3543;
+	  while (i < n) {
+	  int num = (n % i) / (i / 10);
+	  if (num % 2 == 1) {
+	  sum += num;	
+	  }
+	  i = i * 10;
+	  }
+
+6.13
+a) 10 b) 10 c) 10 d) 21 e) forever f) 11 g) 7
+
+6.30
+int i = 1;
+	while (i <= 12) {
+		System.out.print("*");
+		if (i % 4 == 0) {
+			System.out.println();
+		}
+		i++;
+	}
+
+6.32
+Random generator = new Random();
+	int friend = generator.nextInt(15);
+	if (friend < 10) {
+		System.out.println("California");
+	}
+	else if (friend < 13) {
+		System.out.println("Nevada");
+	}
+	else {
+		System.out.println("Utah");
+		}
+	}}
